@@ -7,9 +7,6 @@ gem 'sass-rails'
 group :development, :test do
   gem 'sqlite3'
 end
-group :production do
-  gem 'pg'
-end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 platforms :jruby do
