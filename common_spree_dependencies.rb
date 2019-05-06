@@ -35,8 +35,9 @@ group :test do
   gem 'rails-controller-testing'
 end
 
-group :test, :development do
+group :test, :development, :production do
   gem 'rubocop', '~> 0.60.0', require: false
   gem 'rubocop-rspec', require: false
   gem 'pry-byebug'
+  gem 'pg', '~> 0.18'
 end
